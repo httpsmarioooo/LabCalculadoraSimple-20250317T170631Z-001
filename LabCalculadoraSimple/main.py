@@ -96,9 +96,9 @@
 #         print("Error, ingrese un numero")
 
 
-#! Con solo esto paso el 2 de 2 ajajajajajajaj pero el otro codigo esta bien, lo que pienso es
-#! el test se topa con el while, dice "pero yo estoy esperando un valor para una suma, no un valor
-#! para elegir una opcion" entonces supongo sho, que es eso :)
+#! Con solo esto pasó el 2 de 2 ajajajajajajaj pero el otro codigo esta bien, lo que pienso es
+#! el test se topa con el while, diciendo "yo estoy esperando un valor para una suma, no un valor
+#! para elegir una opcion" entonces supongo sho, que es eso y creo que el while hace ruido y por eso pasaba el error :)
 numeroUno = float(input("number 1: "))
 numeroDos = float(input("number 2: "))
 
