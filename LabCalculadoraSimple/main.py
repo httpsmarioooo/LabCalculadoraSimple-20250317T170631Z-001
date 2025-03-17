@@ -3,9 +3,7 @@ while True:
     print("2 Take two numbers and multiply the two.")
     print("3 Take two numbers and divide the first number by the second number")
     print("4 Take two numbers and perform a modulus operation.")
-    print(
-        "5 Allow users to choose which operation they want to perform on two numbers."
-    )
+    print("5 Allow users to choose which operation they want to perform on two numbers.")
     print("6 Take 3 numbers and add them together.")
     print("7 Allow users to mix operations with 3 numbers or more")
     print("8 Sumar dos numeros??????")
@@ -43,8 +41,8 @@ while True:
 
         elif opcion == 5:
             numeroUno = float(input("Ingrese el primer numero: "))
-            operador = input("Ingrese la operación (+, -, *, /, %): ")
-            numeroDos = float(input("Ingrese el segundo número: "))
+            operador = input("Ingrese la operacion (+, -, *, /, %): ")
+            numeroDos = float(input("Ingrese el segundo numero: "))
 
             if operador == "+":
                 print("Resultado:", numeroUno + numeroDos)
@@ -65,7 +63,7 @@ while True:
                 print("Resultado:", numeroUno % numeroDos)
 
             else:
-                print("Operador no válido.")
+                print("Operador no valido.")
 
         elif opcion == 6:
             numeroUno = float(input("number 1: "))
@@ -76,12 +74,12 @@ while True:
             print("El resultado de la suma de tres numeros es: ",sumaTresNumeros)
 
         elif opcion == 7:
-            expresion = input("Ingresa una expresión matemática /Ejemplo (2+3*2-3/3): ")
+            expresion = input("Ingresa una expresion matematica /Ejemplo (2+3*2-3/3): ")
             try:
                 resultado = eval(expresion)
                 print("Resultado:", resultado)
             except Exception:
-                print("Error: expresión no valida.")
+                print("Error: expresion no valida.")
 
         elif opcion == 8:
             numeroUno = float(input("number 1: "))
