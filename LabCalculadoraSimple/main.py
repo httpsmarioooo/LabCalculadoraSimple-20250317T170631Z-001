@@ -76,7 +76,7 @@ while True:
             print("El resultado de la suma de tres numeros es: ",sumaTresNumeros)
 
         elif opcion == 7:
-            expresion = input("Ingresa una expresión matemática Ejemeplo (2+3*2-3/3): ")
+            expresion = input("Ingresa una expresión matemática /Ejemplo (2+3*2-3/3): ")
             try:
                 resultado = eval(expresion)
                 print("Resultado:", resultado)
